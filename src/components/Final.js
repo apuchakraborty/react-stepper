@@ -18,10 +18,10 @@ export default function Final() {
     <center>
       <form className={classes.root} noValidate autoComplete="off">
         <div>
-          <TextField id="filled-basic" label="Filled" variant="filled" />
+          <TextField id="location" label="Location" variant="filled" />
         </div>
         <div>
-          <TextField id="filled-basic" label="Filled" variant="filled" />
+          <TextField id="pin" label="pin" variant="filled" />
         </div>
       </form>
     </center>

@@ -18,10 +18,10 @@ export default function FormOne() {
     <center>
       <form className={classes.root} noValidate autoComplete="off">
         <div>
-          <TextField id="filled-basic" label="Filled" variant="filled" />
+          <TextField id="fname" label="First Name" variant="filled" />
         </div>
         <div>
-          <TextField id="filled-basic" label="Filled" variant="filled" />
+          <TextField id="lname" label="Last Name" variant="filled" />
         </div>
       </form>
     </center>

@@ -18,10 +18,10 @@ export default function FormTwo() {
     <center>
       <form className={classes.root} noValidate autoComplete="off">
         <div>
-          <TextField id="filled-basic" label="Filled" variant="filled" />
+          <TextField id="email" label="Email" variant="filled" />
         </div>
         <div>
-          <TextField id="filled-basic" label="Filled" variant="filled" />
+          <TextField id="address" label="Address" variant="filled" />
         </div>
       </form>
     </center>
